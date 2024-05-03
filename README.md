@@ -31,10 +31,10 @@
 
   ```sql
   CREATE TABLE Docentes (
-	  id SERIAL PRIMARY KEY,
-  	nombre_docente VARCHAR(200) NOT NULL,
-  	departamento_id INT NOT NULL,
-  	titulo_academico VARCHAR(200) NOT NULL
+    id SERIAL PRIMARY KEY,
+    nombre_docente VARCHAR(200) NOT NULL,
+    departamento_id INT NOT NULL,
+    titulo_academico VARCHAR(200) NOT NULL
   );
   ```
 
@@ -45,9 +45,9 @@
 
   ```sql
   CREATE TABLE Departamentos (
-	  id SERIAL PRIMARY KEY,
-	  nombre_departamento VARCHAR(150) NOT NULL,
-	  ubicacion	VARCHAR(255) NOT NULL
+    id SERIAL PRIMARY KEY,
+    nombre_departamento VARCHAR(150) NOT NULL,
+    ubicacion	VARCHAR(255) NOT NULL
   );
   ```
 
@@ -60,11 +60,11 @@
 
   ```sql
   CREATE TABLE Alumnos (
-  	id SERIAL PRIMARY KEY,
-  	nombre_alumno VARCHAR(200) NOT NULL,
-  	fecha_nacimiento DATE NOT NULL,
-  	direccion VARCHAR(255) NOT NULL,
-  	correo_electronico VARCHAR(150) NOT NULL
+    id SERIAL PRIMARY KEY,
+    nombre_alumno VARCHAR(200) NOT NULL,
+    fecha_nacimiento DATE NOT NULL,
+    direccion VARCHAR(255) NOT NULL,
+    correo_electronico VARCHAR(150) NOT NULL
   );
   ```
 
@@ -82,11 +82,11 @@
 
   ```sql
   CREATE TABLE Matriculas (
-	  id SERIAL PRIMARY KEY,
-	  alumno_id INT NOT NULL,
-	  curso_id INT NOT NULL,
-	  fecha_matricula DATE NOT NULL,
-      estado_matricula matricula_estado_enum NOT NULL, -- o BOOLEAN NOT NULL
+    id SERIAL PRIMARY KEY,
+    alumno_id INT NOT NULL,
+    curso_id INT NOT NULL,
+    fecha_matricula DATE NOT NULL,
+    estado_matricula matricula_estado_enum NOT NULL, -- o BOOLEAN NOT NULL
   );
   ```
 
