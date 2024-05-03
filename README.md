@@ -7,11 +7,11 @@
 ### Parte 1: Definición de Tablas
 
 **1.** Crea una tabla llamada `Cursos` que almacene información sobre los cursos ofrecidos por el centro. Debe incluir los siguientes campos:
-- `id` (PK)
-- `Nombre del Curso`
-- `Departamento_ID` (FK para relacionar con la tabla Departamentos)
-- `Duración del Curso`
-- `Créditos`
+  - `id` (PK)
+  - `Nombre del Curso`
+  - `Departamento_ID` (FK para relacionar con la tabla Departamentos)
+  - `Duración del Curso`
+  - `Créditos`
 
   ```sql
   CREATE TABLE Cursos (
@@ -24,10 +24,10 @@
   ```
 
 **2.** Crea una tabla llamada `Docentes` que almacene información sobre los docentes. Debe incluir los siguientes campos:
-- `ID` (PK)
-- `Nombre del Docente`
-- `Departamento_ID` (FK para relacionar con la tabla Departamentos)
-- `Título Académico`
+  - `ID` (PK)
+  - `Nombre del Docente`
+  - `Departamento_ID` (FK para relacionar con la tabla Departamentos)
+  - `Título Académico`
 
   ```sql
   CREATE TABLE Docentes (
@@ -39,9 +39,9 @@
   ```
 
 **3.** Crea una tabla llamada `Departamentos` que registre la información de los departamentos académicos del centro. Debe incluir los siguientes campos:
-- `ID` (PK)
-- `Nombre del Departamento`
-- `Ubicación`
+  - `ID` (PK)
+  - `Nombre del Departamento`
+  - `Ubicación`
 
   ```sql
   CREATE TABLE Departamentos (
@@ -52,11 +52,11 @@
   ```
 
 **4.** Crea una tabla llamada `Alumnos` que almacene información sobre los alumnos matriculados. Debe incluir los siguientes campos:
-- `ID` (PK)
-- `Nombre del Alumno`
-- `Fecha de Nacimiento`
-- `Dirección`
-- `Correo Electrónico`
+  - `ID` (PK)
+  - `Nombre del Alumno`
+  - `Fecha de Nacimiento`
+  - `Dirección`
+  - `Correo Electrónico`
 
   ```sql
   CREATE TABLE Alumnos (
@@ -69,11 +69,11 @@
   ```
 
 **5.** Crea una tabla llamada `Matrículas` que registre las matrículas de los alumnos en cursos. Debe incluir los siguientes campos:
-- `ID` (PK)
-- `Alumno_ID` (FK para relacionar con la tabla Alumnos)
-- `Curso_ID` (FK para relacionar con la tabla Cursos)
-- `Fecha de Matrícula`
-- `Estado de la Matrícula` (por ejemplo, "Activa" o "Inactiva")
+  - `ID` (PK)
+  - `Alumno_ID` (FK para relacionar con la tabla Alumnos)
+  - `Curso_ID` (FK para relacionar con la tabla Cursos)
+  - `Fecha de Matrícula`
+  - `Estado de la Matrícula` (por ejemplo, "Activa" o "Inactiva")
 
   ```sql
   /* Creacion de ENUM para los estados */
