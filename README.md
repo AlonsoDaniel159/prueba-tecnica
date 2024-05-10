@@ -1,4 +1,4 @@
-#### Nombres y Apellidos: **Alonso Daniel Quispe Huacho** <br> Dni: **74996916** <br> Celular: **957501458**
+#### Nombres y Apellidos: **Alonso Daniel Quispe Huacho** <br> Celular: **957501458**
 
 ## Prueba de Diseño de Base de Datos para Desarrolladores Junior
 
