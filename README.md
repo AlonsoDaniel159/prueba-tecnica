@@ -1,5 +1,3 @@
-#### Nombres y Apellidos: **Alonso Daniel Quispe Huacho** <br> Dni: **74996916** <br> Celular: **957501458**
-
 ## Prueba de Diseño de Base de Datos para Desarrolladores Junior
 
 **Instrucciones**: Diseña una base de datos para un centro educativo que permita llevar un registro de cursos, docentes, departamentos, alumnos y matrículas. Considerar la estructura de las tablas, las relaciones entre ellas y la definición de campos clave. Se puede usar SQL o una herramienta de diseño de bases de datos.
